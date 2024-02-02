@@ -1,0 +1,3 @@
+SELECT user, authentication_string
+FROM mysql.user
+WHERE user = 'username';
